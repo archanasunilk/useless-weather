@@ -314,11 +314,11 @@ def build_message(country, info):
 
     return (
         f"🌍 FLASH NEWS from {country}\n\n"
-        f"🕒 Local time: {local_time}\n"
-        f"🌡️ Temperature: {info['temp_c']}°C\n"
-        f"☁️ Conditions: {info['condition']}\n"
-        f"💨 Wind: {info['wind_kmh']} km/h\n\n"
-        f"(you didn't ask for this. that's the point.)"
+        f"🕒 SAMAYAM: {local_time}\n"
+        f"🌡️ THAPANILA: {info['temp_c']}°C\n"
+        f"☁️ STHIDIGADHIKAL: {info['condition']}\n"
+        f"💨 KAATT: {info['wind_kmh']} km/h\n\n"
+        f"(VALLA LOKA VIVARAM VENDE BRO 😜🧐)"
     )
 
 

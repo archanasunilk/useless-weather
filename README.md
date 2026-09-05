@@ -151,8 +151,9 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1bnkN337mtCAVf6IX-7ltnHHW_cBQcdfF/view?usp=sharing
+
+The demo shows users joining the Telegram bot using the QR code, receiving random country weather notifications, and the bot running through GitHub Actions.
 
 # Additional Demos
 
@@ -160,9 +161,8 @@ For Hardware:
 - GitHub Repository: https://github.com/archanasunilk/useless-weather
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Archana Sunil K:  Developed the Python Telegram bot, weather API integration, random country selection, 
+- Malavika A: Subscriber management, and GitHub Actions deployment.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 

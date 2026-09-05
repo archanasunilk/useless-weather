@@ -2,34 +2,61 @@
 
 
 
-# [Project Name] 🎯
+# USELESS WEATHER 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: ELECTRONS
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Archana Sunil K - SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY
+- Member 2: Malavika A - SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY
 
 ### Project Description
-[2-3 lines about what your project does]
+Random World Pings is a Telegram bot that randomly selects a country and sends subscribers a fun weather update from that location.
+
+It fetches real-time weather and local time information and sends unexpected "news flashes" from around the world at random intervals. Because apparently, nobody asked to know the weather in Finland at 2 AM. 🌍😂
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People are constantly checking the weather in places they don't live in.
+
+Our project solves the extremely serious problem of not knowing the current weather in a completely random country at completely random times.
+
+For example:
+
+"Why don't I know what's happening in Colombia right now?"
+
+Now you can.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We created a Telegram bot that:
+
+Randomly chooses a country.
+Gets its current weather.
+Gets the local time.
+Sends the information to everyone subscribed to the bot.
+Sends updates at random intervals.
+Allows users to subscribe using /start.
+Allows users to unsubscribe using /stop.
+Allows multiple users to receive the same random update.
+
+The bot basically provides completely unnecessary information that somehow becomes entertaining. 🌎
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python
+- Telegram Bot API
+GitHub Actions
+- requests
+Python standard libraries: random, time, json, os
+- Visual Studio Code
+Git
+GitHub
+GitHub Actions
+PowerShell
+Python 3.13
 
 For Hardware:
 - [List main components]

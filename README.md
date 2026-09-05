@@ -59,17 +59,25 @@ PowerShell
 Python 3.13
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- No special hardware is required.
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Clone the repository:
+git clone https://github.com/archanasunilk/useless-weather.git
+cd useless-weather
+
+Install the required Python package:
+pip install -r requirements.txt
+
+Set the Telegram bot token as an environment variable.
+
+Windows PowerShell
+$env:BOT_TOKEN="YOUR_BOT_TOKEN"
 
 # Run
-[commands]
+python random_country_notifier.py
 
 ### Project Documentation
 For Software:

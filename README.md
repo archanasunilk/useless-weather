@@ -83,14 +83,14 @@ python random_country_notifier.py
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1080" alt="VS Code terminal" src="https://github.com/user-attachments/assets/31f31c58-6aa8-415d-8bf4-f4fdc9caad09" />
+*The bot running and sending random country weather updates to multiple subscribers.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="591" height="1280" alt="Telegram" src="https://github.com/user-attachments/assets/ae8af9ec-b5da-48fc-894f-80dddeab9e61" />
+*Telegram showing the subscription confirmation and random weather notifications.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="913" alt="GitHub Actions" src="https://github.com/user-attachments/assets/3a2284fa-5101-49c1-8257-38b447834e64" />
+*GitHub Actions running the Random World Pings Bot in the cloud.*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)

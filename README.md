@@ -93,8 +93,42 @@ For Software:
 *GitHub Actions running the Random World Pings Bot in the cloud.*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+                 ┌─────────────────────┐
+                 │   Telegram Users    │
+                 │  /start or /stop    │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │    Telegram API     │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+              ┌──────────────────────────┐
+              │  Random World Pings Bot  │
+              │         Python           │
+              └────────────┬─────────────┘
+                           │
+              ┌────────────┴────────────┐
+              ▼                         ▼
+     ┌─────────────────┐       ┌─────────────────┐
+     │ Random Country  │       │   Open-Meteo    │
+     │    Selection    │       │  Weather API    │
+     └────────┬────────┘       └────────┬────────┘
+              │                         │
+              └────────────┬────────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Message Builder │
+                  └────────┬────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │ Telegram Users  │
+                  └─────────────────┘
+
+                    🔁 Repeat
+*System Workflow: The bot receives Telegram commands, randomly selects a country, retrieves its weather information from Open-Meteo, builds a notification, and broadcasts it to all active subscribers.*
 
 For Hardware:
 
@@ -121,7 +155,9 @@ For Hardware:
 *Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+
+- Telegram Bot: https://t.me/random_world_pings_bot
+- GitHub Repository: https://github.com/archanasunilk/useless-weather
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]
